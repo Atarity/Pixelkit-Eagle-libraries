@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -57,36 +57,36 @@
 <library>
 <packages>
 <package name="RJ11-1XN-5P">
-<pad name="R3" x="-0.524" y="2.546" drill="0.9"/>
-<pad name="B3" x="1.506" y="2.566" drill="0.9"/>
-<pad name="P$3" x="3.576" y="2.546" drill="0.9"/>
-<pad name="P$4" x="-1.534" y="0.006" drill="0.9"/>
-<pad name="G3" x="0.486" y="0.006" drill="0.9"/>
-<pad name="VCC3" x="2.546" y="0.006" drill="0.9"/>
-<pad name="R2" x="-12.174" y="2.546" drill="0.9"/>
-<pad name="B2" x="-10.144" y="2.566" drill="0.9"/>
-<pad name="P$9" x="-8.074" y="2.546" drill="0.9"/>
-<pad name="P$10" x="-13.184" y="0.006" drill="0.9"/>
-<pad name="G2" x="-11.164" y="0.006" drill="0.9"/>
-<pad name="VCC2" x="-9.104" y="0.006" drill="0.9"/>
-<pad name="R1" x="-23.824" y="2.546" drill="0.9"/>
-<pad name="B1" x="-21.794" y="2.566" drill="0.9"/>
-<pad name="P$15" x="-19.724" y="2.546" drill="0.9"/>
-<pad name="P$16" x="-24.834" y="0.006" drill="0.9"/>
-<pad name="G1" x="-22.814" y="0.006" drill="0.9"/>
-<pad name="VCC1" x="-20.754" y="0.006" drill="0.9"/>
-<pad name="R5" x="22.776" y="2.546" drill="0.9"/>
-<pad name="B5" x="24.806" y="2.566" drill="0.9"/>
-<pad name="P$21" x="26.876" y="2.546" drill="0.9"/>
-<pad name="P$22" x="21.766" y="0.006" drill="0.9"/>
-<pad name="G5" x="23.786" y="0.006" drill="0.9"/>
-<pad name="VCC5" x="25.846" y="0.006" drill="0.9"/>
-<pad name="R4" x="11.126" y="2.546" drill="0.9"/>
-<pad name="B4" x="13.156" y="2.566" drill="0.9"/>
-<pad name="P$27" x="15.226" y="2.546" drill="0.9"/>
-<pad name="P$28" x="10.116" y="0.006" drill="0.9"/>
-<pad name="G4" x="12.136" y="0.006" drill="0.9"/>
-<pad name="VCC4" x="14.196" y="0.006" drill="0.9"/>
+<pad name="R3" x="-0.524" y="2.546" drill="0.6"/>
+<pad name="B3" x="1.506" y="2.566" drill="0.6"/>
+<pad name="P$3" x="3.576" y="2.546" drill="0.6"/>
+<pad name="P$4" x="-1.534" y="0.006" drill="0.6"/>
+<pad name="G3" x="0.486" y="0.006" drill="0.6"/>
+<pad name="VCC3" x="2.546" y="0.006" drill="0.6"/>
+<pad name="R2" x="-12.174" y="2.546" drill="0.6"/>
+<pad name="B2" x="-10.144" y="2.566" drill="0.6"/>
+<pad name="P$9" x="-8.074" y="2.546" drill="0.6"/>
+<pad name="P$10" x="-13.184" y="0.006" drill="0.6"/>
+<pad name="G2" x="-11.164" y="0.006" drill="0.6"/>
+<pad name="VCC2" x="-9.104" y="0.006" drill="0.6"/>
+<pad name="R1" x="-23.824" y="2.546" drill="0.6"/>
+<pad name="B1" x="-21.794" y="2.566" drill="0.6"/>
+<pad name="P$15" x="-19.724" y="2.546" drill="0.6"/>
+<pad name="P$16" x="-24.834" y="0.006" drill="0.6"/>
+<pad name="G1" x="-22.814" y="0.006" drill="0.6"/>
+<pad name="VCC1" x="-20.754" y="0.006" drill="0.6"/>
+<pad name="R5" x="22.776" y="2.546" drill="0.6"/>
+<pad name="B5" x="24.806" y="2.566" drill="0.6"/>
+<pad name="P$21" x="26.876" y="2.546" drill="0.6"/>
+<pad name="P$22" x="21.766" y="0.006" drill="0.6"/>
+<pad name="G5" x="23.786" y="0.006" drill="0.6"/>
+<pad name="VCC5" x="25.846" y="0.006" drill="0.6"/>
+<pad name="R4" x="11.126" y="2.546" drill="0.6"/>
+<pad name="B4" x="13.156" y="2.566" drill="0.6"/>
+<pad name="P$27" x="15.226" y="2.546" drill="0.6"/>
+<pad name="P$28" x="10.116" y="0.006" drill="0.6"/>
+<pad name="G4" x="12.136" y="0.006" drill="0.6"/>
+<pad name="VCC4" x="14.196" y="0.006" drill="0.6"/>
 <hole x="30.39" y="-2.3" drill="2.2"/>
 <hole x="-28.36" y="-2.31" drill="2.2"/>
 <wire x1="-28.5" y1="-4" x2="-28.5" y2="-8.3" width="0.127" layer="21"/>
@@ -99,8 +99,8 @@
 <text x="0.2" y="-2.9" size="1.27" layer="21" rot="SR0">3</text>
 <text x="11.6" y="-2.8" size="1.27" layer="21" rot="SR0">4</text>
 <text x="23.7" y="-2.8" size="1.27" layer="21" rot="SR0">5</text>
-<text x="-19.05" y="1.27" size="0.8128" layer="21" rot="SR0">1</text>
-<text x="-25.4" y="-1.905" size="0.8128" layer="21" rot="SR0">6</text>
+<text x="-19.05" y="1.37" size="0.8128" layer="21" rot="SR0">1</text>
+<text x="-25.2" y="-1.705" size="0.8128" layer="21" rot="SR0">6</text>
 </package>
 </packages>
 <symbols>
