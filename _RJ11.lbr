@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -209,6 +209,33 @@
 <connect gate="G$1" pin="VCC3" pad="VCC3"/>
 <connect gate="G$1" pin="VCC4" pad="VCC4"/>
 <connect gate="G$1" pin="VCC5" pad="VCC5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-LIGHTPACK6T2" package="RJ11-1XN-5P">
+<connects>
+<connect gate="G$1" pin="B1" pad="B5"/>
+<connect gate="G$1" pin="B2" pad="B4"/>
+<connect gate="G$1" pin="B3" pad="B1"/>
+<connect gate="G$1" pin="B4" pad="B2"/>
+<connect gate="G$1" pin="B5" pad="B3"/>
+<connect gate="G$1" pin="G1" pad="G5"/>
+<connect gate="G$1" pin="G2" pad="G4"/>
+<connect gate="G$1" pin="G3" pad="G1"/>
+<connect gate="G$1" pin="G4" pad="G2"/>
+<connect gate="G$1" pin="G5" pad="G3"/>
+<connect gate="G$1" pin="R1" pad="R5"/>
+<connect gate="G$1" pin="R2" pad="R4"/>
+<connect gate="G$1" pin="R3" pad="R1"/>
+<connect gate="G$1" pin="R4" pad="R2"/>
+<connect gate="G$1" pin="R5" pad="R3"/>
+<connect gate="G$1" pin="VCC1" pad="VCC5"/>
+<connect gate="G$1" pin="VCC2" pad="VCC4"/>
+<connect gate="G$1" pin="VCC3" pad="VCC1"/>
+<connect gate="G$1" pin="VCC4" pad="VCC2"/>
+<connect gate="G$1" pin="VCC5" pad="VCC3"/>
 </connects>
 <technologies>
 <technology name=""/>
