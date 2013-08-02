@@ -1,0 +1,1 @@
+GERBERs annotation: Drilling is calculated for 2:4 Leading. PCB dimension contour are in .GTL (both with Top Copper). Milling for components foots slots are in separate .GML (internal metallization are required)
