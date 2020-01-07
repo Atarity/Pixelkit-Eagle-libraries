@@ -5,7 +5,7 @@ Eagle CAD Pixelkit libraries (v6+) and other useful stuff. Still pretty shitty a
 `/cam/sfe-gerb274x.cam` &mdash; Sparkfun CAM processing file (drilling calculate for 2:4 Leading) <a href="http://www.sparkfun.com/tutorials/109">details</a><br />
 `/scr/eagle.scr` &mdash; custom Eagle shortcuts file (do not forget save original ones)
 
-####Custom shortcuts
+### Custom shortcuts
 
 Key | Action
 --- | ---
@@ -23,7 +23,7 @@ F10 | Grid 1 mm, alt 0.1
 Ctrl + F10 | Grid off
 F12 | Show
 
-####Sym, pac, dev movements hints
+### Sym, pac, dev movements hints
 <b>To copy pac, dev:</b>
 
 1. Open target library from control panel (CP) 
